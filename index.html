@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내가 너의 남친이니?</title>
+    <style>
+      button {
+        border: 3px solid lightblue;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      div {
+        padding-top: 20%;
+        padding-left: 44%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function returnYesOrNo() {
+        const a = Math.random() * 9220000000000000000;
+
+        if (a === 1) alert("응");
+        else alert("아니");
+      }
+    </script>
+    <div>
+      <h1>대충 만듦 주의</h1>
+      <button onclick="returnYesOrNo()">내가 너의 남친이니?</button>
+    </div>
+  </body>
+</html>
